@@ -11,7 +11,9 @@ class ShowError extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           SizedBox(
-              height: 150, width: 150, child: Image.asset("assets/error.png")),
+              height: 150,
+              width: 150,
+              child: Image.asset("assets/images/error.png")),
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Text("ERROR: " + error.toString()),
